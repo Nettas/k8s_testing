@@ -1,0 +1,7 @@
+namePrefix: qa-
+commonLabels:
+  tier: qa
+bases:
+- ../../base
+patches:
+- replica_count.yaml

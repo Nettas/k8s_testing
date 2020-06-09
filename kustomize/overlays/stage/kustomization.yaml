@@ -1,0 +1,7 @@
+namePrefix: stage-
+commonLabels:
+  tier: stage
+bases:
+- ../../base
+patches:
+- replica_count.yaml

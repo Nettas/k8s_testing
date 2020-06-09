@@ -1,0 +1,11 @@
+https://kubectl.docs.kubernetes.io/pages/app_customization/bases_and_variants.html
+
+####kustomize build base
+kustomize build kustomize/base
+
+####build and deploy overlay environment
+kustomize build kustomize/overlays/development/ | kubectl apply -n dev-cisco  -f -
+
+####build and delete overlay environment
+ kustomize build kustomize/overlays/development/ | kubectl delete -n dev-learnk8s  -f -
+ 

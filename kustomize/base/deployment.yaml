@@ -1,14 +1,12 @@
-
 apiVersion: apps/v1
 kind: Deployment
-#namespace: learnk8s
 metadata:
   name: learnk8s
-  namespace: cisco
+  #namespace: cisco
   labels:
     app: ccp
 spec:
-  replicas: 3
+  replicas: 2
   selector:
     matchLabels: 
         app: ccp
