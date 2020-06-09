@@ -1,1 +1,1 @@
-docker build -t nettas/k8slearn .
+docker build -t nettas/k8_testing .
