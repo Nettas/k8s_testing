@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: learnk8s
+  labels:
+    app: ccp
+spec:
+  containers:
+  - name: learnk8s-container
+    image: nettas/k8slearn:0.02
